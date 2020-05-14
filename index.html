@@ -252,7 +252,7 @@
                 <option value="Ukraine">Ukraine</option>
                 <option value="United Arab Emirates">United Arab Emirates</option>
                 <option value="United Kingdom">United Kingdom</option>
-                <option value="United States">United States</option>
+                <option value="United States of America">United States of America</option>
                 <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
                 <option value="Uruguay">Uruguay</option>
                 <option value="Uzbekistan">Uzbekistan</option>
@@ -274,18 +274,22 @@
         
              
 
-                    <div style="color:rgb(10, 10, 10) ;text-align:center"id="cou">Global</div>
-                    <div style="color:skyblue ;text-align:center"id="cases" ></div>
-                    <div  style="color:blue;text-align:center"id="newCases"></div>
-                    <div style="color:red;text-align:center"id="death"></div>
-                    <div style="color:orange;text-align:center"id="newDeath"></div>
-                    <div style="color:greenyellow;text-align:center" id="recover"></div>
+                   <div style="color:rgb(10, 10, 10) ;text-align:center"id="cou" class="">Global </div>
+                    <div style="color:skyblue ;text-align:center"id="cases"class="stats"></div><span class="explanation">- Total Cases</span></br>
+                    <div  style="color:blue;text-align:center"id="newCases" class="stats"></div><span class="explanation">- New Cases</span></br>
+                    <div style="color:red;text-align:center"id="death" class="stats"></div><span class="explanation">-Deaths</span></br>
+                    <div style="color:orange;text-align:center"id="newDeath" class="stats"></div><span class="explanation">-New Deaths</span></br>
+                    <div style="color:greenyellow;text-align:center; padding-bottom: 200px;" id="recover" class="stats"></div><span class="explanation">- Recovered</span></br>
                     <div style="color:black ; font-size: 150px; text-align:center" id="error"></div>
                   
                   
                  
               
     </form>
+
+
+
+    <div  style="color:orangered ;text-align:center; text-shadow: 2px 1px rgb(59, 59, 59);" class="footer">Due to server errors,fetch may be unsuccessful. So reload if no data is shown</div>
 
    
 

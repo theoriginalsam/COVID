@@ -71,11 +71,25 @@ body{
 
 
 div{
-border: double,20px;
+
 
 font-weight:bolder;
 
-margin: 10px;
+
    
-   
+}
+.stats{
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+    padding: 5%;
+    text-shadow: 2px 5px rgb(59, 59, 59);
+
+
+}
+
+.explanation {
+    margin-left: 5px;
+    vertical-align: middle;
+    font-size: 20px;
 }
