@@ -2,7 +2,7 @@
 console.log("Hi Client")
 var countryCode;
 var i ;
-var co="Afghanistan";
+var co="";
 
 
 
@@ -33,6 +33,7 @@ covid19.addEventListener('submit',(e)=>{
   
     console.log("Works")
     co= country.value
+    country.value=""
     console.log(co)
 
 
@@ -45,11 +46,6 @@ for( i=0 ;i<200;i++){
     if(co===array[1][i].Country){
     countryCode=i
     console.log(countryCode)
-
-
-
-
-
     }
 
    
