@@ -16,7 +16,7 @@ const array=Object.values(data)
 
 
 const covid19 = document.querySelector('form')
-const country = document.querySelector('select')
+
 
 
 
@@ -26,14 +26,14 @@ document.getElementById("recover").innerHTML = new Intl.NumberFormat('en-IN', { 
 document.getElementById("newCases").innerHTML = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(data.Global.NewConfirmed);
 document.getElementById("newDeath").innerHTML = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(data.Global.NewDeaths);
 
-
+const country = document.querySelector('select')
 covid19.addEventListener('submit',(e)=>{
     e.preventDefault()
 
   
     console.log("Works")
     co= country.value
-    country.value=""
+   
     console.log(co)
 
 
@@ -47,6 +47,8 @@ for( i=0 ;i<200;i++){
     countryCode=i
     console.log(countryCode)
     }
+
+
 
    
   
