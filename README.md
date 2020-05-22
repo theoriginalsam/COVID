@@ -2,6 +2,9 @@
 
 
 To use follow the link below
+# Only PC 
+# For mobile need to work on some stylings
 
 
-[Link](covid19-rasterizeit-app.herokuapp.com/)
+
+[Link](https://covid19-rasterizeit-app.herokuapp.com/)
